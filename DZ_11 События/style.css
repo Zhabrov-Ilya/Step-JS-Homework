@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 40px;
+}
+
+.task2 button {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.task2 .modal-container {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(95, 187, 87, 0.671);
+}
+
+.task2 .modal-container .modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e95858;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.task3 {
+  background-color: #e6f0ac;
+  height: 200px;
+  width: 600px;
+  border-radius: 30px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task3 .lights {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 20px;
+  justify-content: space-between;
+  padding: 10px;
+  width: 480px;
+}
+
+.task3 .lights .red {
+  background-color: red;
+}
+
+.task3 .lights .yellow {
+  background-color: yellow;
+}
+
+.task3 .lights .green {
+  background-color: green;
+}
+
+.task3 .lights .light {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.task3 .lights .inactive {
+  background-color: grey;
+}
+
+.task3 button {
+  padding: 20px;
+  border-radius: 10px;
+}
